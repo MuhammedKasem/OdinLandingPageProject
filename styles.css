@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   /* align-items: center;
   justify-content: center; */
 }
@@ -13,13 +14,25 @@ body {
 
 }
 
+.navleft {
+  display: flex;
+  padding: 20px;
+  margin-right: 90px;
+  
+}
+
+.navright {
+  display: flex;
+  padding: 20px;
+}
+
 ul {
   display: flex;
   list-style: none;
   font-size: 18px;
   margin: 0;
   padding: 0;
-  gap:8px;
+  gap: 15px;
   color: #efe7eb;
   align-items: center;
 }
@@ -27,7 +40,7 @@ ul {
 h1 {
   font-size: 24px;
   color: #F9FAF8;
-  font-weight:bolder
+  font-weight: bolder
 }
 
 .header-left {
@@ -47,39 +60,50 @@ h1 {
   background-color: #1f2937;
   justify-content: center;
   align-items: center;
-  padding: 125px;
+  padding: 100px;
+  padding-top: 80px;
   gap: 60px;
 }
 
 img {
   width: 500px;
-  height: 200px;
+  height: 300px;
 }
 
 .container {
   display: flex;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 80px;
 }
 
 .info {
   max-width: 200px;
-  border-radius: 25px;
-  border: 4px solid #0235ed;
-  padding: 20px; 
   width: 200px;
   height: 150px;
+  background-color: white;
 }
+
+.info:hover {
+  top: 8px;
+  position: relative;
+  transition: all 300ms;
+  transform: scale(1.2);
+}
+
 
 .randomInfo {
   text-align: center;
   padding: 100px;
+  padding-top: 80px;
 }
 
 .infoImg {
   width: 200px;
   height: 160px;
   margin-bottom: 10px;
+  border-radius: 25px;
+  border: 4px solid #0235ed;
 }
 
 .infoHeader {
@@ -114,6 +138,7 @@ img {
   font-size: 25px;
   padding-right: 100px;
   font-weight: bold;
+  font-style: italic;
 }
 
 .subtext {
@@ -131,13 +156,9 @@ img {
   border: 1px solid black;
   border-radius: 6px;
   box-shadow: 6px 6px 6px black;
-  position: relative;
-  top: 0;
-  transition: all 300ms;
-  scale: 1;
 }
 
-.sub-header button:hover {
+.sub-header button:hover, .actionright button:hover {
   box-shadow: 10px 10px 10px black;
   top: 8px;
   position: relative;
@@ -164,21 +185,67 @@ img {
 .actionbox {
   display: flex;
   background-color: #3882F6;
-  width: 75%;
-  margin: 30px;
-  justify-content: space-evenly;
-  border-radius: 25px;
-  border: 3px solid black;
-  padding: 20px;
+  width: 65%;
+  margin: 100px;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .actionleft {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin-right: 200px;
 }
 
 .actionright {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.actionright button {
+  background-color: #3882F6;
+  height: 30px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: large;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 6px 6px 6px black;
+}
+
+
+.actionheader {
+  color: #F9FAF8;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.actiontext {
+  color: lightgrey;
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: lightgrey;
+  padding: 20px;
+}
+
+.imgText {
+}
+
+.mainLogo {
+height: 40px;
+width: 40px;
 }
