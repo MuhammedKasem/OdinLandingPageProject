@@ -166,6 +166,7 @@ img {
   border: 1px solid black;
   border-radius: 6px;
   box-shadow: 6px 6px 6px black;
+  color: #e5e7eb
 }
 
 .sub-header button:hover, .actionright button:hover {
