@@ -8,4 +8,4 @@ Create a website from scratch using HTML & CSS using the provided image as a tem
 
 My Thoughts:
 
-I personally felt as if the assignment provided a good enough challenge as to where you had to combine your own creative thinking alongside the knowledge that was provided within the previous assignments. i struggled a little bit at first creating the sub-header but after that everything was smooth sailing. We were also encouraged to go out and grab CSS styling bits from the web which I did in order to give my website a little more of its own personal flair.
+I personally felt as if the assignment provided a good enough challenge as to where you had to combine your own creative thinking alongside the knowledge that was provided within the previous assignments. I struggled a little bit at first creating the sub-header but after that everything was smooth sailing. We were also encouraged to go out and grab CSS styling bits from the web which I did in order to give my website a little more of its own personal flair.
